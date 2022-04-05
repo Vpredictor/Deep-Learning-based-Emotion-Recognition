@@ -1,39 +1,38 @@
 # import the necessary packages
-from keras.models import Sequential
-from keras.layers.convolutional import Conv2D
-from keras.layers.convolutional import MaxPooling2D
-from keras.layers.core import Activation
-from keras.layers.core import Flatten
-from keras.layers.core import Dense
-from keras.layers import Input, Conv1D, BatchNormalization, MaxPooling1D, LSTM, Dense, Activation, Layer
-import argparse
-from math import sqrt
-from numpy import split
-from numpy import array
-from pandas import read_csv
-from sklearn.metrics import mean_squared_error
-from matplotlib import pyplot
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Flatten
-from keras import backend as K
+from tensorflow_core.python.keras.layers.convolutional import Conv2D
+from tensorflow_core.python.keras.layers.convolutional import MaxPooling2D
+# from keras.layers.core import Activation
+# from tensorflow_core.python.keras.layers.core import Flatten
+# from tensorflow_core.python.keras.layers.core import Dense
+# from tensorflow_core.python.keras.layers import Input, Conv1D, BatchNormalization, MaxPooling1D, LSTM, Dense, Activation, Layer
+# import argparse
+# from math import sqrt
+# from numpy import split
+# from numpy import array
+# from pandas import read_csv
+# from sklearn.metrics import mean_squared_error
+# from matplotlib import pyplot
+from tensorflow_core.python.keras.models import Sequential
+from tensorflow_core.python.keras.layers import Dense
+from tensorflow_core.python.keras.layers import Flatten
+from tensorflow_core.python.keras import backend as K
 
-from keras.layers import LSTM
-from keras.layers import Reshape
-from keras.layers import RepeatVector
-from keras.layers import TimeDistributed
-from keras.layers.convolutional import Conv1D
-from keras.layers.convolutional import MaxPooling1D
-from keras.layers.core import Dropout
-import tensorflow as tf
-from sklearn.preprocessing import MinMaxScaler
-
-import pandas as pd
-import matplotlib.pyplot as plt
-import tensorflow as tf
-import numpy as np
-import math
-import datetime
+from tensorflow_core.python.keras.layers import LSTM
+from tensorflow_core.python.keras.layers import Reshape
+# from keras.layers import RepeatVector
+# from keras.layers import TimeDistributed
+# from keras.layers.convolutional import Conv1D
+# from keras.layers.convolutional import MaxPooling1D
+# from keras.layers.core import Dropout
+# import tensorflow as tf
+# from sklearn.preprocessing import MinMaxScaler
+#
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import tensorflow as tf
+# import numpy as np
+# import math
+# import datetime
 
 
 class networkArchFonc:

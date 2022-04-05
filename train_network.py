@@ -11,18 +11,18 @@ from numpy import savetxt
 from numpy import genfromtxt
 import csv
 
-from keras.utils import np_utils
+from tensorflow_core.python.keras.utils import np_utils
 
 pd.options.display.max_columns = None
 pd.options.display.precision = 4
 # import the necessary packages
-from keras.optimizers import Adam
+from tensorflow_core.python.keras.optimizers import Adam
 
-from keras.utils.vis_utils import plot_model
+from tensorflow_core.python.keras.utils.vis_utils import plot_model
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
-from keras.preprocessing.image import img_to_array
-from keras.utils import to_categorical
+from tensorflow_core.python.keras.preprocessing.image import img_to_array
+from tensorflow_core.python.keras.utils import to_categorical
 from model_1 import networkArchFonc
 from imutils import paths
 import matplotlib.pyplot as plt
@@ -30,10 +30,10 @@ import matplotlib.pyplot as plt
 import argparse
 import random
 # from pandas_ml import ConfusionMatrix
-import cv2
+# import cv2
 import os
 import pandas as pd
-import scikitplot as skplt
+# import scikitplot as skplt
 # import imutils
 import seaborn as sns
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report, \

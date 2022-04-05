@@ -1,11 +1,11 @@
 # import the necessary packages
-from keras.models import Sequential
-from keras.layers.convolutional import Conv2D
-from keras.layers.convolutional import MaxPooling2D
-from keras.layers.core import Activation
-from keras.layers.core import Flatten
-from keras.layers.core import Dense
-from keras import backend as K
+from tensorflow_core.python.keras import backend as K
+from tensorflow_core.python.keras.layers.convolutional import Conv2D
+from tensorflow_core.python.keras.layers.convolutional import MaxPooling2D
+from tensorflow_core.python.keras.layers.core import Activation
+from tensorflow_core.python.keras.layers.core import Dense
+from tensorflow_core.python.keras.layers.core import Flatten
+from tensorflow.keras.models import Sequential
 
 
 class networkArchFonc:
